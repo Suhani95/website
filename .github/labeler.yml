@@ -42,6 +42,9 @@ config:
           - 'astro.config.mjs'
           - 'markdoc.config.mjs'
           - 'src/content.config.ts'
+          - 'netlify.toml'
+          - 'tsconfig.json'
+          - 'lychee.toml'
 
 javascript:
   - changed-files:
