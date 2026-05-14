@@ -1,0 +1,57 @@
+docs:
+  - changed-files:
+      - any-glob-to-any-file:
+          - 'src/content/docs/**/*.{md,mdx}'
+          - 'content/**/*.{md,mdx}'
+
+blog:
+  - changed-files:
+      - any-glob-to-any-file:
+          - 'src/content/blog/**/*'
+
+tutorial:
+  - changed-files:
+      - any-glob-to-any-file:
+          - 'src/content/docs/docs/guides/**/*.{md,mdx}'
+
+reference:
+  - changed-files:
+      - any-glob-to-any-file:
+          - 'src/content/docs/docs/reference/**/*.{md,mdx}'
+          - 'src/content/docs/docs/crds/**/*.{md,mdx}'
+          - 'src/content/docs/docs/kyverno-cli/reference/**/*.{md,mdx}'
+          - 'src/content/policies/**/*.{md,mdx}'
+
+website:
+  - changed-files:
+      - any-glob-to-any-file:
+          - 'src/**/*.{css,js,jsx,ts,tsx}'
+          - 'public/**/*'
+
+navigation:
+  - changed-files:
+      - any-glob-to-any-file:
+          - 'astro.config.mjs'
+          - 'src/content.config.ts'
+          - 'src/constants/index.js'
+          - 'src/components/TopNav.jsx'
+          - 'src/components/TopNavLinks.jsx'
+          - 'src/components/BottomNavLinks.jsx'
+          - 'src/components/BottomLinkLists.jsx'
+          - 'src/components/PageSidebar.astro'
+
+config:
+  - changed-files:
+      - any-glob-to-any-file:
+          - '.github/**/*'
+          - '.editorconfig'
+          - '.node-version'
+          - '.prettierrc'
+          - '.prettierignore'
+          - 'astro.config.mjs'
+          - 'markdoc.config.mjs'
+          - 'netlify.toml'
+          - 'package.json'
+          - 'package-lock.json'
+          - 'tsconfig.json'
+          - 'lychee.toml'
