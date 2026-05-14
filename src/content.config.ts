@@ -12,6 +12,7 @@ const policiesCollection = defineCollection({
     title: z.string(),
     category: z.enum([
       'verifyImages',
+
       'validate',
       'mutate',
       'generate',
