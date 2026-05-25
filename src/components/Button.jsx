@@ -11,7 +11,7 @@ export const Button = ({
 
   const variantStyles = {
     primary:
-      'bg-primary-100 text-white hover:bg-primary-75 hover:scale-105 active:scale-95',
+      'bg-primary-200 text-white hover:bg-primary-75 hover:scale-105 active:scale-95',
     secondary:
       'border border-primary-100 text-theme-primary hover:border-primary-100 hover:bg-primary-100/10 hover:scale-105 active:scale-95',
     accent:
